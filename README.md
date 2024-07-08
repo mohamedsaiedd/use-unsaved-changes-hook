@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/use-unsaved-changes.svg?style=flat-square)](https://www.npmjs.com/package/use-unsaved-changes)
 [![npm downloads](https://img.shields.io/npm/dm/use-unsaved-changes.svg?style=flat-square)](https://www.npmjs.com/package/use-unsaved-changes)
 
-![alt text](https://i.ibb.co/LvpL3Dd/unsavedshanges.png)
+![alt text](https://i.ibb.co/pfZSZ7b/unsavedshanges.png)
 
 
 ## Description

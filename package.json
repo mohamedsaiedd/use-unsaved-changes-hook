@@ -1,6 +1,6 @@
 {
   "name": "use-unsaved-changes",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A custom React hook for managing unsaved changes.",
   "repository": {
     "type": "git",

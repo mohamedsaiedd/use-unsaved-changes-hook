@@ -1,0 +1,16 @@
+{
+  "name": "use-unsaved-changes",
+  "version": "1.0.0",
+  "description": "A custom React hook for managing unsaved changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "custom-hook", "unsaved-changes" , "next"],
+  "author": "Mohamed Saied",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "next": "^12.0.7"
+  }
+}

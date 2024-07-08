@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
-import { usePathname } from 'next/navigation';
+import { usePathname , useRouter} from 'next/navigation';
 
 export function useUnsavedChanges() {
   const router = useRouter();

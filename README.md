@@ -1,4 +1,4 @@
-# use-unsaved-changes
+# use-unsaved-changes Hook
 
 [![npm version](https://img.shields.io/npm/v/use-unsaved-changes.svg?style=flat-square)](https://www.npmjs.com/package/use-unsaved-changes)
 [![npm downloads](https://img.shields.io/npm/dm/use-unsaved-changes.svg?style=flat-square)](https://www.npmjs.com/package/use-unsaved-changes)
@@ -9,7 +9,7 @@
 
 ## Installation
 
-You can install `use-unsaved-changes` using npm or yarn:
+You can install `use-unsaved-changes` using npm or bun:
 
 ```bash
 npm install use-unsaved-changes
@@ -17,7 +17,7 @@ npm install use-unsaved-changes
 or 
 
 ```bash
-npm install use-unsaved-changes
+bun install use-unsaved-changes
 ```
 
 ## Description

@@ -1,9 +1,8 @@
-// use-unsaved-changes.d.ts
-declare module 'use-unsaved-changes' {
-    export { useUnsavedChanges } from './hooks/useUnsavedChanges';
+declare module 'use-unsaved-changes/hooks/useUnsavedChanges' {
+    export type UnsavedChangesReturnType = {
+      isDirty: boolean;
+      setIsDirty: React.Dispatch<React.SetStateAction<boolean>>;
+    };
+  
+    export function useUnsavedChanges(): UnsavedChangesReturnType;
   }
-  
-  // This assumes that your useUnsavedChanges hook returns a specific type
-  // Adjust 'ReturnType' to match the actual return type of your hook
-  declare function useUnsavedChanges(): ReturnType<typeof import('./hooks/useUnsavedChanges').useUnsavedChanges>;
-  

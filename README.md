@@ -1,4 +1,4 @@
-# use-unsaved-changes
+# use-unsaved-changes Hook
 
 [![npm version](https://img.shields.io/npm/v/use-unsaved-changes.svg?style=flat-square)](https://www.npmjs.com/package/use-unsaved-changes)
 [![npm downloads](https://img.shields.io/npm/dm/use-unsaved-changes.svg?style=flat-square)](https://www.npmjs.com/package/use-unsaved-changes)

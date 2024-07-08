@@ -5,7 +5,7 @@
 
 ## Description
 
-`use-unsaved-changes` is a custom React hook for managing unsaved changes in your application. It provides functionality to prompt users before leaving a page or navigating away when there are unsaved changes.
+`use-unsaved-changes` is a custom React hook for managing unsaved changes in your App Router. It provides functionality to prompt users before leaving a page or navigating away when there are unsaved changes.
 
 ## Installation
 

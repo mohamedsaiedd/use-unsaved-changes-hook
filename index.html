@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>use-unsaved-changes: React Hook</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <header class="header">
+    <div class="container">
+      <h1 class="title">use-unsaved-changes HOOK 🪝 </h1>
+      <p class="subtitle">React hook for handling unsaved changes in forms</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Overview</h2>
+        <p class="section-text">
+          <code>use-unsaved-changes</code> is a React hook designed to simplify handling unsaved changes in forms. It provides an intuitive way to detect when a user has made changes to form fields and prompt them before navigating away.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <ul class="feature-list">
+          <li>Detect Unsaved Changes</li>
+          <li>Customizable Prompts</li>
+          <li>Integration with Next App Router</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Usage Example</h2>
+        <pre class="code-example " id="npm-install">
+          <code class="language-jsx">
+            import React from 'react';
+            import { useUnsavedChanges } from 'use-unsaved-changes';
+
+            function MyForm() {
+              const { isDirty, setIsDirty } = useUnsavedChanges();
+
+              const handleSave = () => {
+                // Implement save functionality
+                setIsDirty(false); // Reset dirty state after saving
+              };
+
+              return (
+                &lt;form&gt;
+                  &lt;input type="text" onChange={() => setIsDirty(true)} /&gt;
+                  {isDirty && &lt;p&gt;Unsaved changes detected!&lt;/p&gt;}
+                  &lt;button onClick={handleSave}&gt;Save&lt;/button&gt;
+                &lt;/form&gt;
+              );
+            }
+          </code>
+        </pre>
+      </div>
+    </section>
+
+   
+    <div class="sponsered">
+       <p> package by </p> <a target="_blank" href="https://www.linkedin.com/in/mohamed-saied-fathallah/">  Mohamed Saied</a>
+   </div>
+   <div class="repogithub">
+       <a target="_blank" href="https://github.com/mohamedsaiedd/use-unsaved-changes-hook"> 
+            <img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"> 
+        </a> 
+   </div>
+   <div class="npmLink">
+        <a target="_blank" href="https://www.npmjs.com/package/use-unsaved-changes?activeTab=readme"> 
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/npm-logo.png"> 
+        </a> 
+    </div>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Installation</h2>
+        <pre class="code-example">
+          <code class="language-bash">
+            npm install use-unsaved-changes
+          </code>
+        </pre>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Documentation</h2>
+        <p class="section-text">
+          <a href="https://github.com/mohamedsaiedd/use-unsaved-changes-hook" target="_blank">API Documentation</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+
+
+
+
+
+
